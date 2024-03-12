@@ -26,12 +26,7 @@ Se han proporcionado dos versiones de scripts para interactuar con las versiones
 
 ## Usage
 
-1. Install the required libraries:
-
-   ```bash
-   pip install -r requirements.txt
-
-2. Configurar parametros del script
+1. Configurar parametros del script
 
     * Proporcionar el correo electronico del cual se extraeran los archivos account_to_capture = "ejemplo@outlook.es" --> "Script outlook.py"
     * Proporcionar el correo electronico del cual se extraeran los archivos inbox = outlook.Folders['ejemplo@outlook.es'].Folders['Inbox'] --> "Script outlook3.8.py"
@@ -40,7 +35,7 @@ Se han proporcionado dos versiones de scripts para interactuar con las versiones
     
 
 
-3. Ejecutar Script para la version requeridad:
+2. Ejecutar Script para la version requerida:
  
    * outlook.py ultima version de outlok
    * outlook3.8.py Version antigua de outlook
