@@ -9,7 +9,7 @@ if not os.path.exists(carpeta_local):
     os.makedirs(carpeta_local)
 
 outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
-inbox = outlook.Folders['lloreda102@outlook.es'].Folders['Inbox']
+inbox = outlook.Folders['ejemplo@outlook.es'].Folders['Inbox']
 messages = inbox.Items
 
 today = datetime.date.today()

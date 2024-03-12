@@ -75,7 +75,7 @@ def capture_emails(account, subject_prefix_list, system_date_format='%Y-%m-%d'):
             print(f"Correo electrónico con asunto que comienza por '{subject}' y recibido en la fecha '{current_date}' capturado y contenido guardado en '{folder_path}'.")
 
 if __name__ == "__main__":
-    account_to_capture = "lloreda102@outlook.es"  
+    account_to_capture = "ejemplo@outlook.es"  
     subject_prefix_list_to_capture = ["Santander", "Robot"]
     capture_emails(account_to_capture, subject_prefix_list_to_capture)
 
